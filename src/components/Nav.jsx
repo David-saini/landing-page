@@ -16,7 +16,7 @@ const Nav = () => {
         <div className='bg-black overflow-hidden position-relative'>
             <img className='poabsolute' src={bg_gradient} alt="" />
             <img className='poabsolute_2' src={bg_gradient} alt="" />
-            <Container className='z-2 position-relative'>
+            <Container className='position-relative'>
                 <div className='d-flex align-items-center justify-content-between justify-content-lg-end gap_160px pt-4'>
                     <div className={`${menu ? 'show-nav' : 'nav-fix'}`}>
                         <div className='d-lg-none crossset'
