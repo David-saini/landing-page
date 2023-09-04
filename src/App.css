@@ -24,6 +24,13 @@
     gap: 20px;
 }
 
+.timeline-absolute {
+    position: absolute;
+    left: -2%;
+    top: 8%;
+    height: 220px;
+}
+
 .shadow_1 {
     position: absolute;
     top: 16%;
@@ -190,7 +197,7 @@
 .btn_3 {
     background-color: #6022EA;
     border: 1px solid #6022EA;
-    padding: 10px 24px;
+    padding: 12px 22px;
     color: white;
     max-width: 242px;
     border-radius: 80px;
@@ -389,6 +396,15 @@
     }
 }
 
+@media (max-width:1200px) {
+    .timeline-absolute {
+        position: absolute;
+        left: -2%;
+        top: 8%;
+        height: 190px;
+    }
+}
+
 @media (max-width:992px) {
     .poabsolute {
         position: absolute;
@@ -400,6 +416,13 @@
         position: absolute;
         top: 15%;
         right: -15%;
+    }
+
+    .timeline-absolute {
+        position: absolute;
+        left: -2%;
+        top: 8%;
+        height: 185px;
     }
 }
 
@@ -481,6 +504,16 @@
         right: -10%;
     }
 }
+
+@media (max-width:576px) {
+    .timeline-absolute {
+        position: absolute;
+        left: -2%;
+        top: 8%;
+        height: 123px;
+    }
+}
+
 
 @media (max-width:450px) {
     .gap_160px {

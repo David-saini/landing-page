@@ -47,7 +47,7 @@ const Services = () => {
                             <Col lg={4} data-aos="zoom-in" data-aos-delay="200" data-duration="2000" data-aos-easing="linear">
                                 <p className='fw-400 mb-0 fs-35px Konexy text-white px-3'>Not Sure which service you need yet?</p>
                                 <div className='pt-3'>
-                                    <p className='mb-0 btn_3 gilory fw-400 fs-16px d-flex justify-content-center'>Schedule An Appointment</p>
+                                    <p className='mb-0 btn_3 gilory fw-600 fs-16px'>Schedule An Appointment</p>
                                 </div>
                             </Col>
 
@@ -62,7 +62,7 @@ const Services = () => {
                             </Col>
 
                             <Col lg={3} md={5} data-aos="zoom-in" data-aos-delay="200" data-duration="2000" data-aos-easing="linear">
-                                <img className='w-100' src={girl_img} alt="" />
+                                <img className='w-100 pe-2' src={girl_img} alt="" />
                             </Col>
                         </Row>
                     </div>

@@ -7,6 +7,7 @@ import group_img from '../assets/images/webp/group_img.webp'
 import search_img from '../assets/images/webp/search_img.webp'
 import Send_us from '../assets/images/webp/Send_us.png'
 import bg_gradient from '../assets/images/webp/bg_gradient.png'
+import timeline from '../assets/images/webp/timeline.png'
 
 
 
@@ -63,7 +64,7 @@ const Nav = () => {
                     </div>
                     <div className='d-flex align-items-center gap_20px'>
                         <a onClick={() => setMenu(false)} className='d-none d-lg-block text_white  fw-400 gilory fs-16px' href='#order'>1 888 266-6917 (eu?)</a>
-                        <button className='Contect_btn  fw-400 gilory fs-16px'>Contact Us</button>
+                        <button className='Contect_btn  fw-600 gilory fs-18px'>Contact Us</button>
                         <Dropdown>
                             <Dropdown.Toggle className='dropdown'>
                                 <Earth />
@@ -86,18 +87,17 @@ const Nav = () => {
 
                 </div>
 
-
-
                 <Row className='align-items-center justify-content-lg-between justify-content-center py-5 my-5'>
                     <Col lg={6} data-aos="fade-right" data-aos-delay="200" data-duration="2000" data-aos-easing="linear">
                         <div className='position-relative'>
-                            <h1 className='fw-400 Konexy fs-72px text-white text-lg-start text-center'>WordPress Development Agency</h1>
+                            <h1 className='fw-400 Konexy fs-72px text-white text-lg-start'>WordPress Development Agency</h1>
+                            <img className='timeline-absolute' src={timeline} alt="" />
                         </div>
                         <p className='gilory fw-900 fs-24px text-white py-2'>for Enterprise + Friendly Team</p>
                         <p className='fw-400 gilory fs-16px text-white mb-0 opacity-75'>Vipe Studio is a WordPress Agency for development - a long-term partner for any WordPress service. Websites and,online shops development, maintenance and customization is what we do best.</p>
                         <div className='py-4 d-sm-flex align-items-center gap-4'>
                             <div className='mb-0 d-flex align-items-center justify-content-center'>
-                                <button className='start_btn'>Get Started</button>
+                                <button className='start_btn gilory fw-600'>Get Started</button>
                             </div>
                             <div className='mb-0 pt-sm-0 pt-4 d-flex align-items-center justify-content-center'>
                                 <Link><Videoplayer /><span className='text_white ps-3 opacity-75'>What is Vipe? (1min)</span></Link>
